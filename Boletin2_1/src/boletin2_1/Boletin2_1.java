@@ -23,12 +23,9 @@ public class Boletin2_1 {
         pTarifa = ler.nextFloat();
         System.out.println("Introduzca el precio que has pagado: ");
         pPagado = ler.nextFloat();
-        descuento = pTarifa - pPagado;
-        System.out.println("El descuento fue de:  " + descuento);
-
-        
-        
+        descuento = 100-(pPagado/pTarifa*100);
+        System.out.println("El descuento fue de:  " + descuento +"%");
         
     }
-    
+    //Añado clams
 }
